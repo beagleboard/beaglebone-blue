@@ -57,7 +57,7 @@ UART4_RX (dsm2),UART4_RX (dsm2),11,T17,UART4_RXD,UART4_RXD,gpmc_wait0,mii2_crs,g
 MDIR_1B,MDIR_1B,13,U17,GPIO0_31,UART4_TXD,gpmc_wpn,mii2_rxerr,gpmc_csn5,rmii2_rxerr,mmc2_sdcd,pr1_mii1_txen,uart4_txd,gpio0[31]
 PWM_1A (Mot 1),PWM_1A (Mot 1),14,U14,EHRPWM1A,EHRPWM1A,gpmc_a2,mii2_txd3,rgmii2_td3,mmc2_dat1,gpmc_a18,pr1_mii1_txd2,ehrpwm1A,gpio1[18]
 MDIR_2A,MDIR_2A,15,R13,GPIO1_16,GPIO1_16,gpmc_a0,gmii2_txen,rmii2_tctl,mii2_txen,gpmc_a16,pr1_mii_mt1_clk,ehrpwm1_tripzone_input,gpio1[16]
-,green,,T13,GPIO2_0,GPIO1_16,,,,,,,,
+,MDIR_1A,,T13,GPIO2_0,GPIO1_16,,,,,,,,
 PWM_1B (Mot 2),PWM_1B (Mot 2),16,T14,EHRPWM1B,EHRPWM1B,gpmc_a3,mii2_txd2,rgmii2_td2,mmc2_dat2,gpmc_a19,pr1_mii1_txd1,ehrpwm1B,f
 I2C1_SCL (external),I2C1_SCL (external),17,A16,I2C1_SCL,I2C1_SCL,spi0_cs0,mmc2_sdwp,I2C1_SCL,ehrpwm0_synci,,pr1_edio_data_in1,pr1_edio_data_out1,gpio0[5]
 I2C1_SDA (external),I2C1_SDA (external),18,B16,I2C1_SDA,I2C1_SDA,spi0_d1,mmc1_sdwp,I2C1_SDA,ehrpwm0_tripzone,,pr1_edio_data_in0,pr1_edio_data_out0,gpio0[4]
